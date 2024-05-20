@@ -14,14 +14,10 @@ Antes de empezar, asegúrense de tener los índices más recientes de apt. Para 
 sudo apt-get update
 ```
 
-La plantilla requiere CMake 3.24. Es posible que no tenga esta versión instalada en Ubuntu. Para ello, puede ejecutar los siguientes comandos:
+La plantilla requiere CMake 3.8. Para instalarlo en Ubuntu puede usar el siguiente comando:
 
 ```bash
-# Desinstalar cmake
-sudo apt-get purge cmake
-
-# Instalar la versión más reciente de CMake desde snap
-sudo snap install cmake --classic
+sudo apt-get install cmake
 ```
 
 Para acelerar la compilación, también se recomienda utilizar Ninja:
